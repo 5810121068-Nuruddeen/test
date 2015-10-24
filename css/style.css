@@ -1,0 +1,52 @@
+.jumbotron{
+    background-color: white;
+    padding-bottom: 0px;
+}
+
+
+#content{
+    margin-bottom: 20px;
+}
+
+#content > h2{
+    text-align: center;
+}
+#content > p{
+    text-align: center;
+}
+
+#content .img-responsive{
+    margin: 0 auto;
+}
+
+
+
+.panel-primary>.panel-heading > h4{
+    text-align: center;
+}
+
+.footer{
+    background-color: #286090;
+    padding: 10px 0 0 0;
+}
+
+.footer .copyright > p{
+    text-align: center;
+    color: white;
+}
+
+.content-usability-table-center{
+    text-align: center;
+}
+.content-usability-table-center .table.table-bordered>tbody>tr>th{
+    text-align: center;
+}
+
+
+.h4-text-align{
+    text-align: center;
+}
+
+@-moz-document url-prefix() {
+    fieldset { display: table-cell; }
+}
